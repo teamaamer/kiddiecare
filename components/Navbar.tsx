@@ -1,10 +1,24 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import Image from 'next/image';
+import { useState, useEffect } from 'react';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isFullscreenOpen, setIsFullscreenOpen] = useState(false);
+  
+  useEffect(() => {
+    // Check for gallery fullscreen lightbox
+    const checkFullscreen = () => {
+      const lightbox = document.querySelector('[data-lightbox="true"]');
+      setIsFullscreenOpen(!!lightbox);
+    };
+    
+    const interval = setInterval(checkFullscreen, 100);
+    
+    return () => clearInterval(interval);
+  }, []);
 
   const navLinks = [
     { name: 'HOME', href: '/' },
@@ -15,13 +29,18 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 bg-cream/95 backdrop-blur-sm shadow-md">
+    <nav className={`sticky top-0 z-50 bg-cream/95 backdrop-blur-sm shadow-md transition-opacity duration-200 ${isFullscreenOpen ? 'opacity-0 pointer-events-none' : ''}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex items-center">
-            <h1 className="text-xl sm:text-2xl font-bold text-accent-orange" style={{ lineHeight: '1' }}>
-              KIDDIE<br />CARE
-            </h1>
+            <Image 
+              src="/kiddie-logo.png" 
+              alt="KIDDIECARE Center Logo" 
+              width={120} 
+              height={60}
+              className="h-12 w-auto"
+              priority
+            />
           </Link>
 
           <div className="hidden lg:flex items-center space-x-6">
