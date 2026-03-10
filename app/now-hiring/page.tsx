@@ -228,8 +228,8 @@ export default function NowHiring() {
               <div className="bg-sky-blue/10 rounded-2xl p-4">
                 <p className="text-text-charcoal/70 text-sm">
                   📎 <strong>Resume Upload:</strong> Please email your resume to{' '}
-                  <a href="mailto:careers@kiddiecare.com" className="text-accent-orange hover:underline">
-                    careers@kiddiecare.com
+                  <a href="mailto:kiddieohio@gmail.com" className="text-accent-orange hover:underline">
+                    kiddieohio@gmail.com
                   </a>{' '}
                   along with your application.
                 </p>

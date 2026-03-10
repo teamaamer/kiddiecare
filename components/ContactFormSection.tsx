@@ -65,10 +65,10 @@ export default function ContactFormSection() {
                 <div>
                   <p className="font-semibold text-text-charcoal">Email</p>
                   <a
-                    href="mailto:info@kiddiecare.com"
+                    href="mailto:kiddieohio@gmail.com"
                     className="text-text-charcoal/70 hover:text-accent-orange transition-colors"
                   >
-                    info@kiddiecare.com
+                    kiddieohio@gmail.com
                   </a>
                 </div>
               </div>
