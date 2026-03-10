@@ -34,11 +34,9 @@ export default function Tour3D() {
               <video 
                 className="w-full h-full object-cover"
                 controls
-                muted
                 loop
                 playsInline
               >
-                <source src="/tour.mov" type="video/quicktime" />
                 <source src="/tour.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
