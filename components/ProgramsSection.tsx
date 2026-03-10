@@ -17,7 +17,7 @@ export default function ProgramsSection() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
         <Link href="/programs#infant" className="group">
           <Card className="bg-white/95 hover:shadow-2xl transition-all duration-300 h-full">
             <div className="relative h-40 mb-4 -mx-6 -mt-6 sm:-mx-8 sm:-mt-8 rounded-t-3xl overflow-hidden">
@@ -89,31 +89,6 @@ export default function ProgramsSection() {
             <p className="text-sm font-semibold text-gentle-green mb-3">Kindergarten Readiness</p>
             <p className="text-text-charcoal/70 text-sm leading-relaxed">
               Comprehensive curriculum following Ohio Early Learning Standards, preparing children for kindergarten success.
-            </p>
-          </Card>
-        </Link>
-
-        <Link href="/programs#school-age" className="group">
-          <Card className="bg-white/95 hover:shadow-2xl transition-all duration-300 h-full">
-            <div className="relative h-40 mb-4 -mx-6 -mt-6 sm:-mx-8 sm:-mt-8 rounded-t-3xl overflow-hidden">
-              <Image
-                src="/teddy-laptop.png"
-                alt="School Age Program"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="flex items-center gap-3 mb-3">
-              <svg className="w-6 h-6 text-lavender flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-              </svg>
-              <h3 className="text-xl font-bold text-text-charcoal group-hover:text-accent-orange transition-colors">
-                School Age Program
-              </h3>
-            </div>
-            <p className="text-sm font-semibold text-lavender mb-3">Before & After School + Summer</p>
-            <p className="text-text-charcoal/70 text-sm leading-relaxed">
-              Safe, engaging environment with homework assistance, enrichment activities, and summer camp programs.
             </p>
           </Card>
         </Link>

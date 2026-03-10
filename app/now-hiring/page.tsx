@@ -101,7 +101,7 @@ export default function NowHiring() {
                 <p className="font-semibold text-text-charcoal mt-4">Qualifications:</p>
                 <ul className="space-y-2 ml-4">
                   <li>• Early Childhood Education degree or equivalent</li>
-                  <li>• Experience with preschool-age children</li>
+                  <li>• Experience with young children</li>
                   <li>• CPR and First Aid certified (or willing to obtain)</li>
                   <li>• Pass background check and drug screening</li>
                 </ul>

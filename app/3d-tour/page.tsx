@@ -30,18 +30,21 @@ export default function Tour3D() {
           </div>
 
           <Card className="bg-white/90">
-            <div className="aspect-video bg-black rounded-2xl overflow-hidden">
+            <div className="aspect-video bg-black rounded-2xl overflow-hidden mb-6">
               <video 
-                controls 
-                className="w-full h-full"
-                poster="/teddy-love.png"
+                className="w-full h-full object-cover"
+                controls
+                muted
+                loop
+                playsInline
               >
-                <source src="/tour-video.mov" type="video/mp4" />
+                <source src="/tour.mov" type="video/quicktime" />
+                <source src="/tour.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
-            <p className="text-text-charcoal/70 text-sm text-center mt-4">
-              Take a virtual walkthrough of our KIDDIECARE Center facility
+            <p className="text-text-charcoal/70 text-sm italic text-center">
+              Take a virtual tour of our KIDDIECARE facility
             </p>
           </Card>
 
@@ -124,18 +127,6 @@ export default function Tour3D() {
                   <h4 className="font-bold text-text-charcoal mb-1">Preschool Classrooms</h4>
                   <p className="text-text-charcoal/70">
                     Engaging learning environments with literacy centers, STEM stations, and creative play areas.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start">
-                <svg className="w-6 h-6 text-accent-orange mr-4 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <div>
-                  <h4 className="font-bold text-text-charcoal mb-1">School-Age Areas</h4>
-                  <p className="text-text-charcoal/70">
-                    Dedicated spaces for homework, enrichment activities, and recreational fun for older children.
                   </p>
                 </div>
               </div>

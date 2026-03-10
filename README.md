@@ -63,7 +63,7 @@ kiddiecare/
 
 1. **HOME** (`/`) - Hero with welcome message, feature tiles, 3D tour section, community section, testimonials
 2. **ABOUT** (`/about`) - Philosophy, staff information, child safety protocols
-3. **PROGRAMS** (`/programs`) - Infant, Toddler, Preschool, and School Age programs with detailed activities
+3. **PROGRAMS** (`/programs`) - Infant, Toddler, and Preschool programs with detailed activities
 4. **ACADEMIC ENRICHMENT** (`/academic-enrichment`) - Mission, enrichment programs, summer camps
 5. **RESOURCES** (`/resources`) - HiMama app info, enrollment details, health & safety, quick links
 6. **3D TOUR** (`/3d-tour`) - Virtual facility tour with placeholder for embed

@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Programs | KIDDIECARE Center',
-  description: 'Quality early education programs for infants, toddlers, preschoolers, and school-age children. Empowering your child to be a lifetime learner.',
+  description: 'Quality early education programs for infants, toddlers, and preschoolers. Empowering your child to be a lifetime learner.',
 };
 
 export default function Programs() {
@@ -225,71 +225,6 @@ export default function Programs() {
               fill
               className="object-contain"
             />
-          </div>
-        </div>
-      </Section>
-
-      <Section id="school-age" backgroundImage="/bg-teddy2.png">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="relative h-[400px] animate-float order-2 lg:order-1">
-            <Image
-              src="/teddy-laptop.png"
-              alt="School age program"
-              fill
-              className="object-contain"
-            />
-          </div>
-          <div className="space-y-6 order-1 lg:order-2">
-            <h2 className="text-3xl sm:text-4xl font-bold text-text-charcoal">
-              School Age Program
-            </h2>
-            <p className="text-lg text-text-charcoal/80 font-semibold">
-              Before & After School Care + Summer Camp
-            </p>
-            <blockquote className="text-2xl italic text-accent-orange font-semibold border-l-4 border-accent-orange pl-4">
-              "Fun is just another word for learning"
-            </blockquote>
-            <p className="text-text-charcoal/70 leading-relaxed">
-              Our school-age program provides a safe, engaging environment for children before and after school. We offer homework assistance, enrichment activities, and nutritious meals.
-            </p>
-            <div className="bg-white/95 rounded-2xl p-6 space-y-3">
-              <h3 className="font-bold text-text-charcoal text-xl mb-4">Program Features:</h3>
-              <ul className="space-y-2">
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-lavender mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span className="text-text-charcoal/70">Before & After School Care</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-lavender mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                  </svg>
-                  <span className="text-text-charcoal/70">Homework Assistance & Study Time</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-lavender mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                  </svg>
-                  <span className="text-text-charcoal/70">Nutritious Meals & Snacks</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-lavender mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
-                  </svg>
-                  <span className="text-text-charcoal/70">Transportation Available</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-lavender mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-                  </svg>
-                  <span className="text-text-charcoal/70">Summer Camp Program</span>
-                </li>
-              </ul>
-              <p className="text-text-charcoal/70 text-sm mt-4 italic">
-                Summer camp includes field trips, outdoor activities, and enrichment programs
-              </p>
-            </div>
           </div>
         </div>
       </Section>
