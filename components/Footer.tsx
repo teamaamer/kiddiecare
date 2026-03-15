@@ -78,7 +78,7 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-text-charcoal mb-4">Get Started</h4>
             <p className="text-text-charcoal/80 text-sm mb-4">
-              Join the Star Box family today and give your child the best start in life.
+              Join the KIDDIECARE family today and give your child the best start in life.
             </p>
             <a
               href="#contact"
