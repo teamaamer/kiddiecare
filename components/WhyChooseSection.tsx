@@ -56,19 +56,8 @@ export default function WhyChooseSection() {
           </Card>
         </div>
 
-        {/* Right: Image and card */}
+        {/* Right: Card */}
         <div className="space-y-4">
-          <div className="relative animate-float w-full">
-            <div className="relative w-full aspect-video">
-              <Image
-                src="/daycareimg.png"
-                alt="KIDDIECARE commitment"
-                fill
-                className="object-cover rounded-3xl"
-              />
-            </div>
-          </div>
-
           <Card className="bg-white/95 px-4 py-6">
             <h3 className="text-xl font-bold text-accent-orange mb-3 flex items-center gap-3">
               <svg className="w-6 h-6 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
