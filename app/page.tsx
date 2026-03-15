@@ -9,6 +9,7 @@ import ActivitiesSection from '@/components/ActivitiesSection';
 import ContactFormSection from '@/components/ContactFormSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import GallerySection from '@/components/GallerySection';
+import KindergartenGallery from '@/components/KindergartenGallery';
 import Link from 'next/link';
 
 export default function Home() {
@@ -31,7 +32,11 @@ export default function Home() {
         <WhyChooseSection />
       </Section>
 
-      <Section className="bg-gradient-to-b from-sky-blue/10 to-lavender/10" backgroundImage="/bg-teddy1.png">
+      <Section className="bg-gradient-to-b from-sky-blue/10 to-lavender/10">
+        <KindergartenGallery />
+      </Section>
+
+      <Section className="bg-gradient-to-b from-lavender/10 to-gentle-green/10" backgroundImage="/bg-teddy1.png">
         <GallerySection />
       </Section>
 

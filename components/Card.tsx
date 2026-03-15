@@ -10,6 +10,7 @@ interface CardProps {
   link?: string;
   linkText?: string;
   className?: string;
+  onClick?: () => void;
 }
 
 export default function Card({
@@ -20,10 +21,12 @@ export default function Card({
   link,
   linkText,
   className = '',
+  onClick,
 }: CardProps) {
   return (
     <div
       className={`bg-white/80 backdrop-blur-sm rounded-3xl p-6 sm:p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 ${className}`}
+      onClick={onClick}
     >
       {teddyImage && (
         <div className="relative h-40 mb-6">
