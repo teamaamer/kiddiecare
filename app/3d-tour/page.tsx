@@ -29,24 +29,7 @@ export default function Tour3D() {
             </p>
           </div>
 
-          <Card className="bg-white/90">
-            <div className="aspect-video bg-black rounded-2xl overflow-hidden mb-6">
-              <video 
-                className="w-full h-full object-cover"
-                controls
-                loop
-                playsInline
-              >
-                <source src="/tour.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <p className="text-text-charcoal/70 text-sm italic text-center">
-              Take a virtual tour of our KIDDIECARE facility
-            </p>
-          </Card>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Card className="bg-gradient-to-br from-peach/20 to-white">
               <h3 className="text-xl font-bold text-text-charcoal mb-3 flex items-center gap-2">
                 <svg className="w-6 h-6 text-accent-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
