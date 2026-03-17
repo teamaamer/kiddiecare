@@ -26,6 +26,7 @@ export default function Navbar() {
     { name: 'PROGRAMS', href: '/programs' },
     { name: 'ACADEMIC ENRICHMENT', href: '/academic-enrichment' },
     { name: 'RESOURCES', href: '/resources' },
+    { name: 'LOCATION', href: '/location' },
   ];
 
   return (
