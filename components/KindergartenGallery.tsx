@@ -19,7 +19,7 @@ export default function KindergartenGallery() {
           Our Facility
         </span>
         <h2 className="text-4xl sm:text-5xl font-bold text-text-charcoal mb-4">
-          Inside Our Kindergarten
+          Inside Our Center
         </h2>
         <p className="text-lg text-text-charcoal/70 max-w-2xl mx-auto">
           Take a look at our bright, safe, and welcoming learning spaces designed for your child's growth and happiness
